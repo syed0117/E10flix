@@ -25,18 +25,11 @@ section{
 /*====================================================*/
 
 .navbar{
- 	background-color: #000000 !important;
+  background-color: #000000 !important;
   height:12vh;
-
-
-}
-#navbar{
-      width: 100%;
 }
 #navbarNavDropdown{
-/*  background-color: #fff !important;*/
-  justify-items: center;
-  text-align: center;
+  background-color: #000000 !important;
 }
 
 .navbar-nav{
@@ -63,7 +56,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #ff1749;
+/*  color: #ff1749;*/
 }
 
 .hover-underline-animation:after {
@@ -74,7 +67,7 @@ font-family: 'Roboto Condensed', sans-serif;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #ff1749;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -91,6 +84,7 @@ font-family: 'Roboto Condensed', sans-serif;
 .navbar-toggler{
   border: none !important;
 }
+
 
 
 
