@@ -25,7 +25,8 @@ section{
 /*====================================================*/
 
 .navbar{
-  background-color: #F6F6F6 !important;
+ 	background-color: #000000 !important;
+  height:12vh;
 
 
 }
@@ -53,16 +54,16 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .nav-link{
-  color: #000000 !important; current item
+  color: #fff !important;
 }
 .nav-link:hover{
-  color: #ff1749 !important; current item
+ color: #ff1749 !important;  current item
 
 }
 .hover-underline-animation {
   display: inline-block;
   position: relative;
-  color: #0087ca;
+  color: #ff1749;
 }
 
 .hover-underline-animation:after {
@@ -73,7 +74,7 @@ font-family: 'Roboto Condensed', sans-serif;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ff1749;
+  background-color: #0087ca;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -84,7 +85,7 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 
 .fa-bars{
-/*  color: #fff !important;*/
+ color: #fff !important;
   font-size: 30px !important;
 }
 .navbar-toggler{
