@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New</title>
+    <!-- BOOTSTRAP CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- AOS Animate -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <!-- ============================================================= -->
+    <!-- NAVBAR STARTS HERE  -->
+    <!-- ============================================================= -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg sticky-top shadow-lg" id="navbar">
+       
+          <!-- <a class="navbar-brand px-5 fs-3 logo" href="#">Navbar</a> -->
+          <img src="./assets/img/logo.png" class="" height="70px" width="200px">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto px-5">
+              <li class="nav-item">
+                <a class="nav-link hover-underline-animation" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-underline-animation" href="#feature">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-underline-animation" href="#download">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-underline-animation" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hover-underline-animation" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        
+      </nav>
+    </header>
+    <!-- ============================================================= -->
+    <!-- NAVBAR ENDS HERE  -->
+    <!-- ============================================================= -->
+
+
+    <!-- ============================================================= -->
+    <!-- HERO SECTION STARTS HERE  -->
+    <!-- ============================================================= -->
+    <section id="hero">
+      <div id="bg">
+        <div class="container1">
+          <h2  data-aos="zoom-in-up">The <span style="color:#ff1749;">E10Flix IPTV</span> That Offers You More Than You Ask.</h2>
+          <button class="btn btn-dark px-4 py-2"  data-aos="zoom-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+              <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+            </svg> Play Store </button>
+          <button class="btn btn-dark px-4 py-2"  data-aos="zoom-in-up">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+              <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+              <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z" />
+            </svg> App Store </button>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ============================================================= -->
+    <!-- HERO SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+<!-- <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/img/hero-bg/Capture1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/img/hero-bg/Capture2.png" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
+
+
+
+    <!-- ============================================================= -->
+    <!-- SECTION STARTS HERE  -->
+    <!-- ============================================================= -->
+    <section>
+      <div class="container shadow-lg p-5 m-5" data-aos="flip-up">
+        
+        <h3 class="title2">IPTV</h3>
+
+        <p class="para">I am sure, most of us are aware of the word ‘Television’ or TV and some of us were lucky enough to witness the shift from the Black and White TV’s to colour and then from cable TVs to YouTube and now OTT’s (Over the Top) channels or IPTV. A lot has happened, since Mr. John Logie Baird, the inventor from Scotland, gave his first public demonstration of a grainy televised motion image at a London departmental store. Within three years, in 1928 Mr. Baird did set up his own company by the name of Baird Television Development Company/Cinema Television, to officially broadcast between London and New York, presumably the first transatlantic signal, </p>
+
+        <p class="para">perhaps it was history’s debut in shore-to-ship transmission. The media companies have been investing their time and research on improving the broadcasting technologies and have literally survived the test of time and has upgraded itself to an ANALOG TV to now Hybrid TV, IPTV, and OTT. It now supports 3D, HD, 4k, 5.1 sound, and more.</p>
+      </div>
+    </section>
+    <!-- ============================================================= -->
+    <!-- SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+        <!-- ============================================================= -->
+    <!-- FEATURE SECTION STARTS HERE  -->
+    <!-- ============================================================= -->
+    <section id="feature">
+      <div class="container">
+        <h1 class="title title1 text-center my-5 fs-2" style="font-family: 'Roboto Condensed', sans-serif; font-size: 48px; color: #274d8a;">FEATURE</h1>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in-up">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-2 text-center mx-3">
+            <div class="course-box mb-5 shadow-lg p-3">
+              <div class="panel">
+                <img src="./assets/img/feature1.png" class="img-fluid feature-img">
+              </div>
+              <div class="content">
+                <h4 class="mb-1">One Stop Destination</h4>
+                <p class="para">Get subscription for different OTT content providers in a single click</p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-2 text-center mx-3" data-aos="zoom-in-up">
+            <div class="course-box mb-5 shadow-lg p-3">
+              <div class="panel">
+                <img src="./assets/img/feature2.jpg" class="img-fluid feature-img">
+              </div>
+              <div class="content">
+                <h4 class="mb-1">One Tap Watch</h4>
+                <p class="para">Subscribe all premium content available across multiple OTT Apps with just a single tap. </p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-2 text-center mx-3" data-aos="zoom-in-up">
+            <div class="course-box mb-5 shadow-lg p-3">
+              <div class="panel">
+                <img src="./assets/img/feature2.png" class="img-fluid feature-img">
+              </div>
+              <div class="content">
+                <h4 class="mb-1">TV Everywhere</h4>
+                <p class="para">Use all the features and services any time and on any device - PC/Laptop,Mobile, Tablets,and Smart TVs</p>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-2 text-center mx-3" data-aos="zoom-in-up">
+            <div class="course-box  mb-5 shadow-lg p-3">
+              <div class="panel">
+                <img src="./assets/img/feature5.jpg" class="img-fluid feature-img">
+              </div>
+              <div class="content">
+                <h4 class="mb-1">999+ channels</h4>
+                <p class="para">999+ channels & 64K VOD’s (tv show) absolutely worldwide</p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-2 text-center mx-3" data-aos="zoom-in-up">
+            <div class="course-box mb-5 shadow-lg p-3">
+              <div class="panel">
+                <img src="./assets/img/feature3.png" class="img-fluid feature-img">
+              </div>
+              <div class="content">
+                <h4 class="mb-1">High Quality</h4>
+                <p class="para">We offer best in class quality. We have SD/HD/FHD/2K/4K.</p>
+              </div>
+            </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12 mb-2 text-center mx-3" data-aos="zoom-in-up">
+            <div class="course-box mb-5 shadow-lg p-3">
+              <div class="panel">
+                <img src="./assets/img/download (3).jpg" class="img-fluid feature-img">
+              </div>
+              <div class="content">
+                <h4 class="mb-1">Watch Any Device!</h4>
+                <p class="para">Our IPTV service works on any device such as TVs, Smartphones, FireStick, Mag…</p>
+              </div>
+            </div>
+            </a>
+          </div>
+        </div>
+    </section>
+    <!-- ============================================================= -->
+    <!-- FEATURE SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+    <!-- ============================================================= -->
+    <!-- MY APP SECTION STARTSHERE  -->
+    <!-- ============================================================= -->
+    <section id="download">
+      <div class="container" data-aos="fade-down">
+        <h2 class="title title1 text-center "> E10FLIX APP FEATURES </h2>
+      </div>
+      <!-- .container -->
+      <div class="container">
+        <!-- .row -->
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="text-center m-3" data-aos="fade-right">
+              <h4 class="title2 text-right p-3 fs-4">HASSLE FREE REGISTRATION</h4>
+              <p class="para">Our focus is to provide hassle free and quick registration process for Cable TV customers and get unmatched online experience managing Cable TV Connection with "MyCableTV" account.</p>
+            </div>
+            <div class="text-center m-3" data-aos="fade-right">
+              <h4 class="title2 p-3 fs-4">MANAGE PROFILE AND PACKAGES</h4>
+              <p class="para">Manage your Profile and Cable TV Channels & Packages Subscription online with MyCableTV account easily.</p>
+            </div>
+            <div class="text-center m-3" data-aos="fade-right">
+              <h4 class="title2 text-center p-3 fs-4">SERVICE REQUEST(S)</h4>
+              <p class="para">"MyCableTV" makes it easy to Raise & Manage Service Requests related to your CableTV Connection(s) and get auto updates on progress of service requests registered.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 col-features-img wow fadeInUp  animation-delay-12" data-animation="animation-fade-in-down">
+            <div data-aos="fade-up">
+              <img src="./assets/img/11.png" class="img-fluid" alt="App Main Features">
+            </div>
+          </div>
+          <div class="col-sm-4 col-features">
+            <div class="text-center m-3" data-aos="fade-left">
+              <h4 class="title2 text-center p-3 fs-4">SECURE ONLINE PAYMENT</h4>
+              <p class="para">With MyCableTv account customers can manage their monthly Subscription Bill Payments or Recharge Prepaid Wallet Account instantly using Credit Card, Debit Card, Net-banking, Wallet etc.</p>
+            </div>
+            <div class="text-center m-3" data-aos="fade-left">
+              <h4 class="title2 text-center p-3 fs-4" >GLOBAL ACCESS</h4>
+              <p class="para">Get Connected online & Manage your "MyCableTV" account from anywhere using your PC, Laptop or mobile.</p>
+            </div>
+            <div class="text-center m-3" data-aos="fade-left">
+              <h4 class="title2 text-center p-3 fs-4">STANDARD AND UNIQUE DIGITAL PLATFORM</h4>
+              <p class="para">This is a unique app designed specifically to manage all your cable related requirements in one platform.</p>
+            </div>
+          </div>
+        </div>
+        <!-- .row end -->
+      </div>
+      <!-- .container end -->
+    </section>
+    <!-- ============================================================= -->
+    <!-- MY APP SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+    <!-- ============================================================= -->
+    <!-- SECTION STARTS HERE  -->
+    <!-- ============================================================= -->
+
+    <section>
+      
+      <div class="row p-5" style="background: linear-gradient(90deg, rgba(142,180,245,0.908000700280112) 23%, rgba(238,42,79,0.8799894957983193) 70%, rgba(230,198,204,0.8799894957983193) 97%);">
+        
+        <div class="col-lg-8 col-sm-12">
+          
+          <h3 class="title2 px-5 justify-content-center">Don’t have the app? Download E10Flix Mobile App Now.</h3>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 ">
+          
+          <div class="align-self-center">
+            
+            <a href=""><img src="./assets/img/play-store.png" class="img-fluid" style="height:45px;"></a>
+
+            <a href=""><img src="./assets/img/appstore.png" class="img-fluid" style="height:45px;"></a>
+          </div>
+        </div>
+        
+      </div>      
+
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+    <section id="carousel">
+      <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="./assets/img/carousel/24 Ghanta.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/AAKASH BANGLA.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Aastha Bhajan.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Aastha.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/ABP Ananda.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/AXN.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Channel V.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/CNBC Awaaz.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Colors.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Comedy Central.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/DD Bharati.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/ET Now.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Fx.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Home Shop 18.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Investigation Discovery.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Life OK.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Movies Now.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Naaptol.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Paras TV.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Pix.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Sab Tv.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Sangeet Bhojpuri.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Sony Pal.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img//carousel/Sony.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Star Movies Action.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Star Plus.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Star World.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Times Now.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Zee Café.jpg" height="100" width="250" alt="" />
+        </div>
+        <div class="slide">
+          <img src="./assets/img/carousel/Zee Studio.jpg" height="100" width="250" alt="" />
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <dic class="col-lg-6" data-aos="zoom-in-right">
+            <img src="./assets/img/feat1.png" class="img-fluid">
+          </dic>
+          <!--  -->
+          <div class="col-lg-6" data-aos="zoom-in-left">
+            <h3 class="title title1 text-center">Why E10FLIX IPTV?</h3>
+            <ul class="property">
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span>Most stable app server and engineer team over 4 years.
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> You Get 16,000 Ordinary & Premium Channels Instantly.
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> You Get Over 86,000 Movies & 14,000 TV Shows (VOD’s).
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> No More Expensive Cable Bills.
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> Solid IPTV Service, Without Buffering and Freezing (Stable Internet Required).
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> Our IPTV Service is Always Up 99,99 % of the Time!
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> You Get 100% Satisfaction Guarantee.
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> You Get the Best Quality/Price In The Market.
+              </li>
+              <li>
+                <span style="color: #ff1749; font-size:25px;">✓ </span> You Get 24/7 Customer Service Via WhatsApp or Ticketing System.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--  -->
+        <div class="row">
+          <div class="col-lg-6" data-aos="zoom-in-right">
+            <h2 class="title title1 text-center">Advantages of Multi Connections</h2>
+            <p class="para ">Many of our competitors have their Servers based in India With a multiScreen account, you will be able to enjoy TV on many devices at the same time without any interruption. Our MultiScreen accounts are not IP locked, which means you even can have one account in one house and another in a different house or country. You can set up an account on a smart TV and set up the same account with the same features on your smartphone and enjoy watching your favorite programmes or games.</p>
+            <p class="para">And other Asian markets – our Servers are all based in Europe, to give you the fastest stream times and consistently high quality of service.</p>
+          </div>
+          <div class="col-lg-6" data-aos="zoom-in-left">
+            <img src="./assets/img/feat2.png" class="img-fluid">
+          </div>
+        </div>
+        <!--  -->
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+    <!-- ============================================================= -->
+    <!-- SECTION STARTS HERE  -->
+    <!-- ============================================================= -->
+
+    <section>
+      
+      <div class="row p-5" style="background: linear-gradient(90deg, rgba(142,180,245,0.908000700280112) 23%, rgba(238,42,79,0.8799894957983193) 70%, rgba(230,198,204,0.8799894957983193) 97%);">
+        
+        <div class="col-lg-8 col-sm-12">
+          
+          <h3 class="title2 px-5">DO YOU HAVE A PROJECT IN YOUR MIND?</h3>
+          <p class="para px-5">Do you have a project in your mind? If have any project idea to discuss with us, our team is happy to help you with successful plans. Contact us today and expand your business with no geographical boundaries.</p>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 ">
+          
+        <button class="btn title2 contact-btn px-4 py-2">
+         LET'S COLLABORATE
+         </button>
+
+        </div>
+        
+      </div>      
+
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+
+    <!-- ============================================================= -->
+    <!-- SECTION STARTS HERE  -->
+    <!-- ============================================================= -->
+    <section id="">
+      <div class="container" data-aos="fade-down">
+        <div class="container">
+          <h1 class="title title1 text-center my-5 fs-2" style="font-family: 'Roboto Condensed', sans-serif; font-size: 48px; color: #274d8a;">MAKING EXCEPTIONAL QUALITY ENTERTAINMENT</h1>
+        </div>
+        <div class="container2">
+          <img src="./assets/img/1.png" class="feature-img" style="height: 200px; width: 200px;">
+        </div>
+        <div class="conatiner">
+          <p class="text-center py-1 feature-text">Our IPTV service is the fruit of our 4 Years experience, our goal is to satisfy our clients, give them the best experience possible and build a long term relationship with them, we have the most stable and powerful servers on the market with no buffering or freeze at all.</p>
+          <p class="text-center feature-text">Our IPTV service makes it faster, easier and cheaper than ever to watch everything you want with a clear, high-quality picture.</p>
+        </div>
+      </div>
+    </section>
+    <!-- ============================================================= -->
+    <!-- SECTION ENDS HERE  -->
+    <!-- ============================================================= -->
+
+
+
+
+
+
+    <!-- ============================================================= -->
+    <!-- FOOTER  STARTS HERE  -->
+    <!-- ============================================================= -->
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+
+            <!-- <span class="logo_name">CodingLab</span> -->
+            <img src="./assets/img/logo.png" class="img-fluid" height="70px" width="200px">
+          </div>
+          <div class="media-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Company</li>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="index.html#feature">Features us</a>
+            </li>
+            <li>
+              <a href="index.html#about">About Us</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="box">
+            <li class="link_name">Privacy Policy</li>
+            <li>
+              <a href="index.html">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="index.html">FAQs</a>
+            </li>
+          </ul>
+          <ul class="box">
+            <li class="link_name"></li>
+            <li>
+              <a href="#">support@e10flix.com</a>
+            </li>
+          </ul>
+          <ul class="box input-box">
+            <li class="link_name">Perfect It Solutions</li>
+            <li>
+              <input type="text" placeholder="Enter your email">
+            </li>
+            <li>
+              <input type="button" value="Subscribe">
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright &#169; 2023 <a href="#">E10Flix.</a>All rights reserved </span>
+          <span class="policy_terms">
+            <a href="#">Privacy policy</a>
+            <a href="#">Terms & condition</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+    <!-- ============================================================= -->
+    <!-- FOOTER ENDS HERE  -->
+    <!-- ============================================================= -->
+    <!-- BOOTSTRAP CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Custom Js -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <!-- AOS Animate -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="text/javascript">
+      // aos animate
+        AOS.init({
+          once: true,
+          // duration: 500,
+          delay: 200,
+        });
+    </script>
+  </body>
+</html>

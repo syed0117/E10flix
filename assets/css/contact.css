@@ -1,0 +1,48 @@
+/*hero Section*/
+.container1{
+	max-width: 7s00px;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'Oswald', sans-serif;
+	font-weight: bolder;
+}
+.container1 h2 {
+	font-size: 55px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding-top: 150px;
+}
+#contactbg{
+	background-image: url('../img/aboutbg.jpg');
+	height: 90vh;
+/*	background-color: rgba(0,0,0,0.2);*/
+    background-size: 50% 50%;
+    background-position: center;
+    height: 450px;
+    background-repeat: no-repeat; 
+	background-blend-mode: multiply;
+  background-size: cover;
+ background-position: center;
+  background-repeat:  no-repeat;
+}		
+button{
+	padding: 15px 30px;
+	border: none;
+	letter-spacing: 2px;
+}
+
+.subtitle{
+	letter-spacing: 2px;
+	font-weight: normal;
+	color: white !important;
+	font-family: 'Open Sans', sans-serif;
+/*	display:none;*/
+}
+
+/*============================================*/
+/*============================================*/
+
+
+
+
