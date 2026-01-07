@@ -1,0 +1,159 @@
+/* Rates page */
+#ratesbg {
+  background-image: linear-gradient(rgba(8, 14, 32, 0.75), rgba(8, 14, 32, 0.75)), url('../img/aboutbg.jpg');
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+#ratesbg .container1 {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+}
+
+#ratesbg h2 {
+  font-size: 64px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.rates-hero-text {
+  color: #d3d7e3;
+  font-size: 18px;
+  max-width: 700px;
+  margin: 16px auto 0;
+}
+
+.rates-section {
+  padding: 80px 0 100px;
+}
+
+.rates-accent {
+  color: #ff1749;
+}
+
+.rates-tabs .nav-link {
+  border-radius: 999px;
+  padding: 10px 26px;
+  font-weight: 600;
+  color: #1b2b52;
+  border: 1px solid rgba(27, 43, 82, 0.2);
+  margin: 0 8px;
+}
+
+.rates-tabs .nav-link.active {
+  background-color: #ff1749;
+  color: #ffffff;
+  box-shadow: 0 10px 20px rgba(255, 23, 73, 0.25);
+}
+
+.rates-card {
+  background: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rates-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 35px rgba(15, 20, 45, 0.15);
+}
+
+.rates-card-header {
+  background: linear-gradient(120deg, #1b2b52, #0c1330);
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 18px 24px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.rates-card.featured .rates-card-header {
+  background: linear-gradient(120deg, #ff1749, #ff6b35);
+}
+
+.rates-card-body {
+  padding: 28px 26px 32px;
+}
+
+.rates-card-body h4 {
+  font-size: 36px;
+  color: #1b2b52;
+  margin-bottom: 12px;
+}
+
+.rates-card-body h4 span {
+  font-size: 16px;
+  color: #6c7a99;
+}
+
+.rates-desc {
+  font-size: 15px;
+  color: #49526b;
+  margin-bottom: 20px;
+}
+
+.rates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  color: #1b2b52;
+}
+
+.rates-list li {
+  padding: 6px 0;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rates-list i {
+  color: #ff1749;
+}
+
+.rates-btn {
+  background-color: #1b2b52;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 26px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.rates-btn:hover {
+  background-color: #ff1749;
+}
+
+.rates-cta {
+  background: #0c1330;
+  padding: 40px 30px;
+  border-radius: 24px;
+  color: #ffffff;
+}
+
+.rates-cta .para {
+  color: #d0d6e7;
+}
+
+@media (max-width: 768px) {
+  #ratesbg h2 {
+    font-size: 46px;
+  }
+
+  .rates-tabs .nav-link {
+    margin-bottom: 10px;
+  }
+}
