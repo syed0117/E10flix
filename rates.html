@@ -1,267 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E10Flix Media - Rates</title>
-    <!-- BOOTSTRAP CDN  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome Cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    <!-- AOS Animate -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- Favicon     -->
-    <link rel="icon" type="image/x-icon" href="./assets/img/fv.png">
-    <!-- Custom css  -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/rates.css">
-  </head>
-  <body>
-    <!-- ============================================================= -->
-    <!-- NAVBAR STARTS HERE  -->
-    <!-- ============================================================= -->
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg sticky-top bg-light sh" id="navbar">
-        <a class="navbar-brand px-5 fs-3 logo" style="color: yellow;" href="#">E10FLIX MEDIA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto px-5">
-            <li class="nav-item">
-              <a class="nav-link hover-underline-animation" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hover-underline-animation" href="index.html#feature">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hover-underline-animation" href="index.html#download">Download</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hover-underline-animation" href="index.html#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hover-underline-animation" href="rates.html">Rates</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link hover-underline-animation" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- ============================================================= -->
-    <!-- NAVBAR ENDS HERE  -->
-    <!-- ============================================================= -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E10Flix Media — Rates &amp; Plans</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="icon" type="image/x-icon" href="./assets/img/fv.png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
 
-    <!-- ============================================================= -->
-    <!-- HERO SECTION STARTS HERE  -->
-    <!-- ============================================================= -->
-    <section id="hero">
-      <div id="ratesbg">
-        <div class="container1 text-center py-5">
-          <p class="subtitle text-uppercase">Flexible plans for every viewer</p>
-          <h2 data-aos="zoom-in-up">Rates & Packages</h2>
-          <p class="rates-hero-text">Stream premium content across devices with transparent pricing and instant activation.</p>
-        </div>
-      </div>
-    </section>
-    <!-- ============================================================= -->
-    <!-- HERO SECTION ENDS HERE  -->
-    <!-- ============================================================= -->
-
-    <section class="rates-section">
-      <div class="container">
-        <div class="text-center mb-5" data-aos="fade-down">
-          <h3 class="title2 text-uppercase">Choose your <span class="rates-accent">plan</span></h3>
-          <p class="para">Pick the subscription that matches your viewing style and upgrade anytime.</p>
-        </div>
-
-        <ul class="nav nav-pills justify-content-center rates-tabs" id="ratesTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="monthly-tab" data-bs-toggle="pill" data-bs-target="#monthly" type="button" role="tab" aria-controls="monthly" aria-selected="true">Monthly</button>
-          </li>
-        </ul>
-
-        <div class="tab-content mt-5" id="ratesTabContent">
-         <div class="row g-4 justify-content-center">
-
-  <!-- PLAN 1 -->
-  <div class="col-lg-4 col-md-6">
-    <div class="rates-card shadow-lg" data-aos="zoom-in-up">
-      <div class="rates-card-header">E10 Welcome Marathi</div>
-      <div class="rates-card-body">
-        <h4>₹175 <span>/ month</span></h4>
-        <ul class="rates-list">
-          <li>Zee Marathi</li>
-          <li>Zee Talkies</li>
-          <li>Colors Marathi</li>
-          <li>Star Pravah</li>
-          <li>Sony Marathi</li>
-          <li>Zee 24 Taas</li>
-          <li>TV9 Marathi</li>
-          <li>News18 Lokmat</li>
-          <li>Saam TV</li>
-          <li>Lokshahi Marathi</li>
-          <li>DD Sahyadri</li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary rates-btn">Get Started</a>
-      </div>
+  <!-- NAVBAR -->
+  <nav class="navbar-e10" id="mainNav">
+    <div class="container-nav">
+      <a href="index.html" class="nav-logo">E10<span>FLIX</span>&nbsp;MEDIA</a>
+      <ul class="nav-links" id="desktopNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#download">App</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-cta-btn-wrap"><a href="contact.html" class="nav-cta-btn">Get Started</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
+  </nav>
+  <div class="nav-mobile" id="mobileNav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#download">App</a></li>
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta-btn">Get Started</a></li>
+    </ul>
   </div>
 
-  <!-- PLAN 2 -->
-  <div class="col-lg-4 col-md-6">
-    <div class="rates-card shadow-lg featured" data-aos="zoom-in-up" data-aos-delay="100">
-      <div class="rates-card-header">E10 Marathi Silver</div>
-      <div class="rates-card-body">
-        <h4>₹275 <span>/ month</span></h4>
-        <ul class="rates-list">
-          <li>All E10 Welcome Marathi Channels</li>
-          <li>Star Plus</li>
-          <li>Colors</li>
-          <li>Sony SAB</li>
-          <li>Zee TV</li>
-          <li>Zee Cinema</li>
-          <li>Star Gold</li>
-          <li>Sony Pal</li>
-          <li>Discovery</li>
-          <li>National Geographic</li>
-          <li>Animal Planet</li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary rates-btn">Choose Plan</a>
+  <!-- RATES HERO -->
+  <section class="rates-hero" data-aos="fade-down">
+    <span class="section-label">Flexible Plans for Every Viewer</span>
+    <h1>Rates &amp; <span style="color:var(--red)">Packages</span></h1>
+    <div class="divider" style="margin:.75rem auto 1rem;"></div>
+    <p>Stream premium content across all your devices — transparent pricing, instant activation.</p>
+  </section>
+
+  <!-- PLANS GRID -->
+  <section class="rates-section">
+    <div class="container-e10">
+      <div class="section-center" data-aos="fade-up">
+        <span class="section-label">Monthly Plans</span>
+        <h2 class="section-title">Choose Your <span>Perfect Plan</span></h2>
+        <div class="divider"></div>
+        <p class="section-sub mt-3">Pick the subscription that matches your viewing style. Upgrade anytime — no lock-in.</p>
       </div>
-    </div>
-  </div>
 
-  <!-- PLAN 3 -->
-  <div class="col-lg-4 col-md-6">
-    <div class="rates-card shadow-lg" data-aos="zoom-in-up" data-aos-delay="200">
-      <div class="rates-card-header">E10 Marathi Smart</div>
-      <div class="rates-card-body">
-        <h4>₹375 <span>/ month</span></h4>
-        <ul class="rates-list">
-          <li>All E10 Marathi Silver Channels</li>
-          <li>Star Sports Network</li>
-          <li>Sony Sports Network</li>
-          <li>Hindi Movies Channels</li>
-          <li>Marathi Movies Channels</li>
-          <li>Music Channels</li>
-          <li>Kids Channels</li>
-          <li>Infotainment Channels</li>
-        </ul>
-        <a href="contact.html" class="btn btn-primary rates-btn">Go Premium</a>
-      </div>
-    </div>
-  </div>
+      <div class="rates-grid">
 
-</div>
-
+        <!-- PLAN 1: Welcome Marathi -->
+        <div class="rate-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="rate-card-header">
+            <h3>E10 Welcome Marathi</h3>
           </div>
-
-        <div class="rates-cta text-center mt-5" data-aos="fade-up">
-          <h4 class="title2">Need a custom bundle?</h4>
-          <p class="para">Talk to our team for enterprise pricing, add-ons, and tailor-made channel packs.</p>
-          <a href="contact.html" class="btn btn-primary rates-btn">Contact Sales</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================= -->
-    <!-- FOOTER  STARTS HERE  -->
-    <!-- ============================================================= -->
-    <footer>
-      <div class="content">
-        <div class="top">
-          <div class="logo-details">
-            <img src="./assets/img/logo.png" class="img-fluid" height="70px" width="200px">
-          </div>
-          <div class="media-icons">
-            <a href="#">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#">
-              <i class="fab fa-youtube"></i>
+          <div class="rate-card-body">
+            <div class="rate-price">₹175 <span>/ month</span></div>
+            <ul class="rate-list">
+              <li><i class="fa-solid fa-check-circle"></i>Zee Marathi</li>
+              <li><i class="fa-solid fa-check-circle"></i>Zee Talkies</li>
+              <li><i class="fa-solid fa-check-circle"></i>Colors Marathi</li>
+              <li><i class="fa-solid fa-check-circle"></i>Star Pravah</li>
+              <li><i class="fa-solid fa-check-circle"></i>Sony Marathi</li>
+              <li><i class="fa-solid fa-check-circle"></i>Zee 24 Taas</li>
+              <li><i class="fa-solid fa-check-circle"></i>TV9 Marathi</li>
+              <li><i class="fa-solid fa-check-circle"></i>News18 Lokmat</li>
+              <li><i class="fa-solid fa-check-circle"></i>Saam TV</li>
+              <li><i class="fa-solid fa-check-circle"></i>Lokshahi Marathi</li>
+              <li><i class="fa-solid fa-check-circle"></i>DD Sahyadri</li>
+            </ul>
+            <a href="contact.html" class="btn-primary-e10" style="width:100%;justify-content:center;">
+              Get Started
             </a>
           </div>
         </div>
-        <div class="link-boxes">
-          <ul class="box">
-            <li class="link_name">Company</li>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="index.html#feature">Features</a>
-            </li>
-            <li>
-              <a href="index.html#about">About Us</a>
-            </li>
-            <li>
-              <a href="rates.html">Rates</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
 
-          <ul class="box">
-            <li class="link_name">Privacy Policy</li>
-            <li>
-              <a href="privacy.html">Privaccy Policy</a>
-            </li>
-            <li>
-              <a href="privacy.html">Terms & Conditions</a>
-            </li>
-            <li>
-              <a href="refundPolicy.html">Refund Policys</a>
-            </li>
-          </ul>
+        <!-- PLAN 2: Silver (Featured) -->
+        <div class="rate-card featured" data-aos="fade-up" data-aos-delay="100">
+          <div class="rate-card-badge">Most Popular</div>
+          <div class="rate-card-header">
+            <h3>E10 Marathi Silver</h3>
+          </div>
+          <div class="rate-card-body">
+            <div class="rate-price" style="color:var(--red);">₹275 <span>/ month</span></div>
+            <ul class="rate-list">
+              <li><i class="fa-solid fa-check-circle"></i>All Welcome Marathi Channels</li>
+              <li><i class="fa-solid fa-check-circle"></i>Star Plus</li>
+              <li><i class="fa-solid fa-check-circle"></i>Colors</li>
+              <li><i class="fa-solid fa-check-circle"></i>Sony SAB</li>
+              <li><i class="fa-solid fa-check-circle"></i>Zee TV</li>
+              <li><i class="fa-solid fa-check-circle"></i>Zee Cinema</li>
+              <li><i class="fa-solid fa-check-circle"></i>Star Gold</li>
+              <li><i class="fa-solid fa-check-circle"></i>Sony Pal</li>
+              <li><i class="fa-solid fa-check-circle"></i>Discovery</li>
+              <li><i class="fa-solid fa-check-circle"></i>National Geographic</li>
+              <li><i class="fa-solid fa-check-circle"></i>Animal Planet</li>
+            </ul>
+            <a href="contact.html" class="btn-primary-e10" style="width:100%;justify-content:center;">
+              Choose Plan
+            </a>
+          </div>
+        </div>
 
-          <ul class="box">
-            <li class="link_name">Support</li>
-            <li>
-              <a href="contact.html">Help Center</a>
-            </li>
-            <li>
-              <a href="contact.html">FAQ</a>
-            </li>
-            <li>
-              <a href="contact.html">Legal</a>
-            </li>
-            <li>
-              <a href="contact.html">Security</a>
-            </li>
-          </ul>
+        <!-- PLAN 3: Smart -->
+        <div class="rate-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="rate-card-header">
+            <h3>E10 Marathi Smart</h3>
+          </div>
+          <div class="rate-card-body">
+            <div class="rate-price">₹375 <span>/ month</span></div>
+            <ul class="rate-list">
+              <li><i class="fa-solid fa-check-circle"></i>All Marathi Silver Channels</li>
+              <li><i class="fa-solid fa-check-circle"></i>Star Sports Network</li>
+              <li><i class="fa-solid fa-check-circle"></i>Sony Sports Network</li>
+              <li><i class="fa-solid fa-check-circle"></i>Hindi Movies Channels</li>
+              <li><i class="fa-solid fa-check-circle"></i>Marathi Movies Channels</li>
+              <li><i class="fa-solid fa-check-circle"></i>Music Channels</li>
+              <li><i class="fa-solid fa-check-circle"></i>Kids Channels</li>
+              <li><i class="fa-solid fa-check-circle"></i>Infotainment Channels</li>
+            </ul>
+            <a href="contact.html" class="btn-primary-e10" style="width:100%;justify-content:center;">
+              Go Premium
+            </a>
+          </div>
+        </div>
 
-          <ul class="box input-box">
-            <li class="link_name">Subscribe</li>
-            <li><input type="text" placeholder="Enter your email"></li>
-            <li><input type="button" value="Subscribe"></li>
-          </ul>
+      </div>
+
+      <!-- Custom Bundle CTA -->
+      <div class="rates-cta-block" data-aos="fade-up">
+        <span class="section-label">Enterprise &amp; Custom</span>
+        <h4>Need a Custom Bundle?</h4>
+        <p>Talk to our team for enterprise pricing, add-ons, and tailor-made channel packs for your business or household.</p>
+        <a href="contact.html" class="btn-primary-e10">
+          <i class="fa-solid fa-headset"></i> Contact Sales Team
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY TRUST US STRIP -->
+  <section style="background:var(--bg-soft);padding:3.5rem 2rem;border-top:1px solid var(--border);" data-aos="fade-up">
+    <div class="trust-bar-inner">
+      <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> 99.9% Uptime Guarantee</div>
+      <div class="trust-item"><i class="fa-solid fa-bolt"></i> Instant Activation</div>
+      <div class="trust-item"><i class="fa-solid fa-headset"></i> 24/7 WhatsApp Support</div>
+      <div class="trust-item"><i class="fa-solid fa-rotate"></i> Cancel Anytime</div>
+      <div class="trust-item"><i class="fa-solid fa-star"></i> 100% Satisfaction Guarantee</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-e10">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo-text">E10<span>FLIX</span> MEDIA</div>
+        <p class="footer-desc">India's trusted premium IPTV service — 16,000+ live channels, 86,000+ VODs, telecom-grade reliability.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
       </div>
-    </footer>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#features">Features</a></li>
+          <li><a href="index.html#about">About Us</a></li>
+          <li><a href="rates.html">Rates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="refundPolicy.html">Refund Policy</a></li>
+          <li><a href="index.html">FAQs</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Stay Updated</h5>
+        <p style="font-size:.8125rem;color:rgba(255,255,255,.45);margin-bottom:.75rem;">Get the latest channel updates &amp; offers.</p>
+        <div class="footer-subscribe">
+          <input type="email" placeholder="Enter your email">
+          <button>Subscribe</button>
+        </div>
+        <p style="font-size:.8125rem;color:rgba(255,255,255,.4);margin-top:.75rem;">
+          <i class="fa-solid fa-phone me-1" style="color:var(--red);"></i>+91-77680-00110
+        </p>
+        <p style="font-size:.8125rem;color:rgba(255,255,255,.4);margin-top:.35rem;">
+          <i class="fa-solid fa-envelope me-1" style="color:var(--red);"></i>support@e10flix.in
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy; 2024 E10Flix Media. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        duration: 1200,
-      });
-    </script>
-  </body>
+  <!-- Sticky Mobile CTA -->
+  <div class="sticky-mobile-cta">
+    <a href="contact.html"><i class="fa-solid fa-headset me-2"></i>Talk to Us — Get Your Plan</a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 650, offset: 60 });
+    document.getElementById('hamburger').addEventListener('click', () => {
+      document.getElementById('mobileNav').classList.toggle('open');
+    });
+  </script>
+</body>
 </html>
